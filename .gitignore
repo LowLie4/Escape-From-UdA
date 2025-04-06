@@ -58,3 +58,5 @@ ShaderCache/
 StateCache/
 Cache/
 PlayerDataCache/
+ArtifactDB
+Runner/

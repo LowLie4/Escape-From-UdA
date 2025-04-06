@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\ERP\\Editor\\ERP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ERP\\Editor\\ERP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\assets\\script\\cajapuzzlecolores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cajapuzzlecolores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\assets\\script\\puzzleordinadorusb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\puzzleordinadorusb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\assets\\script\\indentificadorusb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\indentificadorusb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\assets\\script\\accesportalab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\accesportalab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ERP.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\ERP\\Editor\\ERP.cs",
+              "RelativeDocumentMoniker": "Assets\\ERP\\Editor\\ERP.cs",
+              "ToolTip": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\ERP\\Editor\\ERP.cs",
+              "RelativeToolTip": "Assets\\ERP\\Editor\\ERP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:29:55.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CajaPuzzleColores.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\CajaPuzzleColores.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CajaPuzzleColores.cs",
+              "ToolTip": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\CajaPuzzleColores.cs",
+              "RelativeToolTip": "Assets\\Script\\CajaPuzzleColores.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAIBJwF0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:28:41.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccesPortaLab.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\AccesPortaLab.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AccesPortaLab.cs",
+              "ToolTip": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\AccesPortaLab.cs",
+              "RelativeToolTip": "Assets\\Script\\AccesPortaLab.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T19:54:05.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PuzzleOrdinadorUSB.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\PuzzleOrdinadorUSB.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PuzzleOrdinadorUSB.cs",
+              "ToolTip": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\PuzzleOrdinadorUSB.cs",
+              "RelativeToolTip": "Assets\\Script\\PuzzleOrdinadorUSB.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:27:27.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndentificadorUSB.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\IndentificadorUSB.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\IndentificadorUSB.cs",
+              "ToolTip": "C:\\Users\\dfern\\Desktop\\TFG\\Escape from UdA\\Assets\\Script\\IndentificadorUSB.cs",
+              "RelativeToolTip": "Assets\\Script\\IndentificadorUSB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:21:35.706Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
