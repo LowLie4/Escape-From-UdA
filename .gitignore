@@ -1,41 +1,60 @@
-###
-# Unity folders and files
-###
-[Aa]ssets/AssetStoreTools*
-[Bb]uild/
-[Ll]ibrary/
-[Ll]ocal[Cc]ache/
-[Oo]bj/
-[Tt]emp/
-[Uu]nityGenerated/
-# file on crash reports
-sysinfo.txt
-# Unity3D generated meta files
-*.pidb.meta
+# .gitignore para proyectos Unity (incluye VR)
+# Este archivo ignora archivos y directorios generados automáticamente por Unity
+# y por herramientas de desarrollo, evitando archivos temporales o específicos del sistema.
+# Puedes encontrar la versión más actualizada en:
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
 
-###
-# VS/MD solution and project files
-###
-[Ee]xportedObj/
-*.booproj
+# Directorios generados automáticamente por Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Logs/
+/UserSettings/
+
+# Crash logs y reportes
+CrashReports/
+
+# Es importante versionar los archivos .meta de Unity
+!*.meta
+
+# Archivos de configuración y solución de Visual Studio / MonoDevelop
 *.csproj
+*.unityproj
 *.sln
 *.suo
-*.svd
-*.unityproj
+*.tmp
 *.user
 *.userprefs
 *.pidb
-.DS_Store
+*.booproj
+*.svd
 
-###
-# OS generated
-###
+# Archivos del sistema operativo
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
 Thumbs.db
+
+# Configuraciones de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*~
+
+# Carpeta artifacts (archivos generados automáticamente)
+artifacts/
+
+# Bee build artifacts (carpeta típica de Unity para builds incrementales)
+[Bb]ee/
+
+# Carpeta de Gradle (por si usas Gradle fuera de la carpeta Library)
+.gradle/
+build/
+BurstCache/
+PackageCache/
+ShaderCache/
+*.cache
+StateCache/
+Cache/
+PlayerDataCache/
