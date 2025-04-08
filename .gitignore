@@ -60,3 +60,5 @@ Cache/
 PlayerDataCache/
 ArtifactDB
 Runner/
+Logs/
+*.log

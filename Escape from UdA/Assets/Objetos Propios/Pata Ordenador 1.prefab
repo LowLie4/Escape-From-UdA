@@ -1666,6 +1666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Raton
       objectReference: {fileID: 0}
+    - target: {fileID: 8381329766742110203, guid: 77693aa9ab898634298b44790e14e5f3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -3739915852457376404, guid: becf17e664e3f674aaf58f124706786c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

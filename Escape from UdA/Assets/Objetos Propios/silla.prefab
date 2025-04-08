@@ -83,7 +83,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.94078207
+  - screenRelativeHeight: 0.72820085
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3919247032013185020}
@@ -95,11 +95,11 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6596865575788101046}
-  - screenRelativeHeight: 0.3322438
+  - screenRelativeHeight: 0.686595
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1340910610556272528}
-  - screenRelativeHeight: 0.16822003
+  - screenRelativeHeight: 0.66670084
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 8171504615104588000}
@@ -286,6 +286,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4775736725086457551}
     m_Modifications:
+    - target: {fileID: -8757287686886125010, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 251c8a44e3b8585478bb1676da81ffe0, type: 2}
     - target: {fileID: -8679921383154817045, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -334,6 +338,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base10
       objectReference: {fileID: 0}
+    - target: {fileID: -5156486412655585805, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bf8811439b690446b65839fa0333c7c, type: 2}
+    - target: {fileID: -3612056578764351204, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bf8811439b690446b65839fa0333c7c, type: 2}
     - target: {fileID: -3338298358823291610, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
       propertyPath: m_Name
       value: Fero10
@@ -342,6 +354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Superior10
       objectReference: {fileID: 0}
+    - target: {fileID: 199458261840190034, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bf8811439b690446b65839fa0333c7c, type: 2}
+    - target: {fileID: 569273260305695016, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0b03e5f89a6175840a59771d99c0d28e, type: 2}
     - target: {fileID: 919132149155446097, guid: e8c440ee1fea2c54f9851a981425673e, type: 3}
       propertyPath: m_Name
       value: silla_10
