@@ -815,3 +815,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoMostrar: {fileID: 5327645681178878700}
+  usbGris: {fileID: 0}
+  usbDorada: {fileID: 0}
+  ProjeccioODS: {fileID: 0}

@@ -13945,7 +13945,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b03e5f89a6175840a59771d99c0d28e, type: 2}
+  - {fileID: 2100000, guid: d1d38c23a0a7a1349a6748c2653b1221, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19222,7 +19222,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b03e5f89a6175840a59771d99c0d28e, type: 2}
+  - {fileID: 2100000, guid: d1d38c23a0a7a1349a6748c2653b1221, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24357,31 +24357,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.50899273
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.49084404
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4908441
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5089897
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 87.92
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.005
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3072927970019751609, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 89.995
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3230012101315017206, guid: 0bf3266d0f817e74a827403a9c671022, type: 3}
       propertyPath: m_Mesh
