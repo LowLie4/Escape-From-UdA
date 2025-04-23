@@ -1,0 +1,65 @@
+using System.Numerics;
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+
+public class CaixaFusibles : MonoBehaviour
+{
+    [Tooltip("LED que se enciende cuando se inserta el fusible en este socket.")]
+    public GameObject LEDAsignat;
+    public PortaSortida portaSortida;
+
+    public void OnFusibleInserted(SelectEnterEventArgs args)
+    {
+        GameObject objetoInsertado = args.interactableObject.transform.gameObject;
+
+        Debug.Log($"[CaixaFusibles] Se ha insertado un objeto: {objetoInsertado.name} (Tag: {objetoInsertado.tag})");
+
+        if (objetoInsertado.CompareTag("Fusible Fos"))
+        {
+            Debug.Log("[CaixaFusibles] El fusible insertado es FUSIBLE FOS. Encendiendo LED en rojo.");
+            SetLEDColor(Color.red);
+        }
+        else if (objetoInsertado.CompareTag("Fusible Bo"))
+        {
+            Debug.Log("[CaixaFusibles] El fusible insertado es FUSIBLE BO. Encendiendo LED en verde.");
+            SetLEDColor(Color.green);
+        }
+        else
+        {
+            Debug.LogWarning("[CaixaFusibles] El objeto insertado no tiene una tag válida.");
+        }
+    }
+
+    public void OnFusbleRemoved(SelectExitEventArgs args)
+    {
+        GameObject objetoRetirado = args.interactableObject.transform.gameObject;
+
+        Debug.Log($"[CaixaFusibles] Se ha retirado el objeto: {objetoRetirado.name}. Apagando LED.");
+        SetLEDColor(Color.black);
+    }
+
+    private void SetLEDColor(Color color)
+    {
+        if (LEDAsignat != null)
+        {
+            Renderer renderer = LEDAsignat.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                Debug.Log($"[CaixaFusibles] Cambiando color del LED '{LEDAsignat.name}' a: {color}");
+                renderer.material.color = color;
+            }
+            else
+            {
+                Debug.LogError("[CaixaFusibles] No se encontró Renderer en el LED asignado.");
+            }
+        }
+        else
+        {
+            Debug.LogError("[CaixaFusibles] LEDAsignat no está asignado en el Inspector.");
+        }
+
+        portaSortida?.VerificarResistencies();
+
+    }
+}
+ 

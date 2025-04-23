@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638795470252597088
-    m_Hash: 2434997438
+      ticks: 638744717774528365
+    m_Hash: 103217206
   m_LockFileStatus:
     m_FilePath: C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638795470252607085
-    m_Hash: 3752120780
+      ticks: 638744717774664067
+    m_Hash: 3173415048
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -580,6 +580,7 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.1.1
     - 4.1.2
+    - 4.1.3
     - 4.2.0-pre.1
     compatible:
     - 3.1.3
@@ -591,6 +592,7 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.1.1
     - 4.1.2
+    - 4.1.3
     - 4.2.0-pre.1
     recommended: 3.1.3
     deprecated: []
@@ -1484,6 +1486,7 @@ m_ResolvedPackages:
     - 3.1.0-pre.1
     - 3.1.0
     - 3.1.1
+    - 3.1.2
     compatible:
     - 2.6.3
     - 2.6.4
@@ -1500,6 +1503,7 @@ m_ResolvedPackages:
     - 3.1.0-pre.1
     - 3.1.0
     - 3.1.1
+    - 3.1.2
     recommended: 2.6.4
     deprecated: []
   dependencies:
@@ -1945,6 +1949,7 @@ m_ResolvedPackages:
     - 1.14.0
     - 1.14.1
     - 1.14.2
+    - 1.14.3
     compatible:
     - 1.11.0
     - 1.11.1-exp.1
@@ -1957,6 +1962,7 @@ m_ResolvedPackages:
     - 1.14.0
     - 1.14.1
     - 1.14.2
+    - 1.14.3
     recommended: 1.11.0
     deprecated: []
   dependencies:
@@ -4480,11 +4486,15 @@ m_ResolvedPackages:
     - 1.8.17
     - 1.8.18
     - 1.8.19
+    - 1.8.20
+    - 1.8.21
     compatible:
     - 1.8.17
     - 1.8.18
     - 1.8.19
-    recommended: 1.8.19
+    - 1.8.20
+    - 1.8.21
+    recommended: 1.8.21
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5240,11 +5250,13 @@ m_ResolvedPackages:
     - 3.0.31
     - 3.0.34
     - 3.0.35
+    - 3.0.36
     compatible:
     - 3.0.31
     - 3.0.34
     - 3.0.35
-    recommended: 3.0.35
+    - 3.0.36
+    recommended: 3.0.36
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit

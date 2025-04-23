@@ -40,6 +40,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6827822148427568700}
     m_Modifications:
+    - target: {fileID: 1314235133921015865, guid: c6d349069d7b5e148ad9405128e5d041, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.498
+      objectReference: {fileID: 0}
     - target: {fileID: 2853029630298904281, guid: c6d349069d7b5e148ad9405128e5d041, type: 3}
       propertyPath: m_Name
       value: Ordinador
