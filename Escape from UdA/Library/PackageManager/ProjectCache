@@ -5,18 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638744717774528365
-    m_Hash: 103217206
+      ticks: 638795470252597088
+    m_Hash: 2434997438
   m_LockFileStatus:
     m_FilePath: C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638744717774664067
-    m_Hash: 3173415048
+      ticks: 638810775750175242
+    m_Hash: 200867330
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/com.merry-yellow.code-assist/package.json:
+      m_FilePath: C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/com.merry-yellow.code-assist/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638810774512839476
+      m_Hash: 1724004672
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages
@@ -3897,6 +3905,77 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.merry-yellow.code-assist@file:C:\Users\dfern\Documents\GitHub\Escape-From-UdA\Escape
+    from UdA\Packages\com.merry-yellow.code-assist
+  testable: 1
+  isDirectDependency: 1
+  version: 1.4.13
+  source: 3
+  resolvedPath: C:\Users\dfern\Documents\GitHub\Escape-From-UdA\Escape from UdA\Packages\com.merry-yellow.code-assist
+  assetPath: Packages/com.merry-yellow.code-assist
+  name: com.merry-yellow.code-assist
+  displayName: Code Assist
+  author:
+    name: Merry Yellow
+    email: merryyellow@outlook.com
+    url: https://code-assist.netlify.app/
+  category: 
+  type: tool
+  description: Code Assist improves your coding experience with Visual Studio and
+    VS Code by adding more features for Unity projects. Coding Unity scripts becomes
+    easier and more efficient and with fewer bugs.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Productivity
+  - Functionality
+  - Script
+  - CSharp
+  - Scripting
+  - Code Editor
+  - IDE
+  - Visual Studio
+  - Tool
+  - Code
+  - Utility
+  - Coding
+  - C#
+  - Workflow
+  - Generative AI
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

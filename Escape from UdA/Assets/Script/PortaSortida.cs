@@ -8,9 +8,26 @@ public class PortaSortida : MonoBehaviour
     public GameObject cilindro1;
     public GameObject cilindro2;
 
+    public GameObject porta; // Asigna tu objeto en el inspector
+    private GameObject newPivot;
+
+    // Variables para controlar la rotación
+    public float targetAngle = 120f;       // Ángulo total deseado
+    public float rotationSpeed = 20f;      // Velocidad de rotación (grados por segundo)
+
+
+    private void Start()
+    {
+        newPivot = new GameObject("NewPivot");
+        newPivot.transform.position = porta.transform.position;
+        newPivot.transform.rotation = porta.transform.rotation;
+        porta.transform.SetParent(newPivot.transform);
+    }
 
     public void VerificarResistencies()
     {
+        StartCoroutine(AccionCompleta()); // Iniciar toda la secuencia
+
         int verdes = 0;
         foreach (var s in sockets)
         {
@@ -21,18 +38,17 @@ public class PortaSortida : MonoBehaviour
         if (verdes == 4)
         {
             Debug.Log("[GestorResistencias] ¡4 LEDs verdes detectados!");
-            // Ejecuta tu acción aquí
-            MoverCilindros();
+            StartCoroutine(AccionCompleta()); // Iniciar toda la secuencia
         }
     }
 
-    public void MoverCilindros()
+    private IEnumerator AccionCompleta()
     {
-        StartCoroutine(MoverSuavementeLocal(cilindro1.transform, new Vector3(1.591f, -0.125f, -0.087f), 2f));
-        StartCoroutine(MoverSuavementeLocal(cilindro2.transform, new Vector3(1.591f, -0.125f, -0.087f), 2f));
-
-
+        yield return StartCoroutine(MoverSuavementeLocal(cilindro1.transform, new Vector3(1.591f, -0.125f, -0.087f), 2f));
+        yield return StartCoroutine(MoverSuavementeLocal(cilindro2.transform, new Vector3(1.591f, -0.125f, -0.087f), 2f));
+        yield return StartCoroutine(RotarPorta());
     }
+
 
 
     private IEnumerator MoverSuavementeLocal(Transform objeto, Vector3 posicionFinal, float duracion)
@@ -48,7 +64,24 @@ public class PortaSortida : MonoBehaviour
             }
 
             objeto.localPosition = posicionFinal;
+    }
+
+
+    private IEnumerator RotarPorta()
+    {
+        float rotatedAngle = 0f;
+
+        while (rotatedAngle < targetAngle)
+        {
+            float rotationThisFrame = rotationSpeed * Time.deltaTime;
+            if (rotatedAngle + rotationThisFrame > targetAngle)
+                rotationThisFrame = targetAngle - rotatedAngle;
+
+            newPivot.transform.Rotate(-Vector3.down * rotationThisFrame);
+            rotatedAngle += rotationThisFrame;
+            yield return null;
         }
+    }
 
 
 }

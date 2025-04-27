@@ -12,16 +12,12 @@ public class CaixaFusibles : MonoBehaviour
     {
         GameObject objetoInsertado = args.interactableObject.transform.gameObject;
 
-        Debug.Log($"[CaixaFusibles] Se ha insertado un objeto: {objetoInsertado.name} (Tag: {objetoInsertado.tag})");
-
         if (objetoInsertado.CompareTag("Fusible Fos"))
         {
-            Debug.Log("[CaixaFusibles] El fusible insertado es FUSIBLE FOS. Encendiendo LED en rojo.");
             SetLEDColor(Color.red);
         }
         else if (objetoInsertado.CompareTag("Fusible Bo"))
         {
-            Debug.Log("[CaixaFusibles] El fusible insertado es FUSIBLE BO. Encendiendo LED en verde.");
             SetLEDColor(Color.green);
         }
         else
@@ -34,7 +30,6 @@ public class CaixaFusibles : MonoBehaviour
     {
         GameObject objetoRetirado = args.interactableObject.transform.gameObject;
 
-        Debug.Log($"[CaixaFusibles] Se ha retirado el objeto: {objetoRetirado.name}. Apagando LED.");
         SetLEDColor(Color.black);
     }
 
@@ -45,7 +40,6 @@ public class CaixaFusibles : MonoBehaviour
             Renderer renderer = LEDAsignat.GetComponent<Renderer>();
             if (renderer != null)
             {
-                Debug.Log($"[CaixaFusibles] Cambiando color del LED '{LEDAsignat.name}' a: {color}");
                 renderer.material.color = color;
             }
             else
