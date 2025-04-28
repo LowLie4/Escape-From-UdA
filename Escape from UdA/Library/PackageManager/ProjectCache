@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638813685491323258
-    m_Hash: 1751473238
+      ticks: 638814275957229417
+    m_Hash: 2869131006
   m_LockFileStatus:
     m_FilePath: C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638813685491433909
-    m_Hash: 1730218951
+      ticks: 638814275957240893
+    m_Hash: 1056773158
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/com.merry-yellow.code-assist/package.json:
@@ -23,7 +23,7 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638813660870241941
+        ticks: 638810774512839476
       m_Hash: 1724004672
 m_LocalPackages:
   m_LocalFileStatus: []
@@ -2076,7 +2076,6 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.2
     - 1.14.3
-    - 1.15.0-pre.1
     compatible:
     - 1.11.0
     - 1.11.1-exp.1
@@ -2090,7 +2089,6 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.2
     - 1.14.3
-    - 1.15.0-pre.1
     recommended: 1.11.0
     deprecated: []
   dependencies:

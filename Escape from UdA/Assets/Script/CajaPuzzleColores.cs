@@ -24,6 +24,30 @@ public class CajaPuzzleColores : MonoBehaviour
     public float rotationSpeed = 20f;      // Velocidad de rotación (grados por segundo)
     private bool rotating = false;         // Indica si se está rotando
 
+    [Header("Configuración del parpadeo")]
+    [Tooltip("Duración de la unidad de tiempo (dot).")]
+    public float unitDuration = 0.2f;
+
+    [Tooltip("Color cuando está \"encendido\" (blanco).")]
+    public Color onColor = Color.white;
+
+    [Tooltip("Color cuando está \"apagado\" (negro).")]
+    public Color offColor = Color.black;
+
+    [Header("Referencia al Renderer")]
+    [Tooltip("Si tu objeto usa un SpriteRenderer, cámbialo aquí; de lo contrario deja Renderer.")]
+    public Renderer targetRenderer;
+
+
+    private readonly Dictionary<char, string> morseCode = new Dictionary<char, string>()
+    {
+        { 'X', "-..-" },
+        { 'A', ".-"   },
+        { 'R', ".-."  }
+    };
+
+
+
     void Start()
     {
         foreach (XRSimpleInteractable boto in botons)
@@ -39,6 +63,13 @@ public class CajaPuzzleColores : MonoBehaviour
 
         // Hacer que "tapa" sea hijo del nuevo pivote
         tapa.transform.SetParent(newPivot.transform);
+
+        // Si no has arrastrado el Renderer en el Inspector, lo buscamos
+        if (targetRenderer == null)
+            targetRenderer = GetComponent<Renderer>();
+
+        // Empezamos la rutina
+        StartCoroutine(FlashMorseLoop());
     }
 
     void Update()
@@ -144,5 +175,42 @@ public class CajaPuzzleColores : MonoBehaviour
         if (boto.name.Equals("Boto Verd Fosc")) return new Color(0.2588235f, 0.4980392f, 0.2745098f);
         if (boto.name.Equals("Boto Marro")) return new Color(0.7490196f, 0.5529411f, 0.172549f);
         return Color.white;
+    }
+
+    private IEnumerator FlashMorseLoop()
+    {
+        string palabra = "XARXA";
+
+        while (true)
+        {
+            foreach (char letra in palabra)
+            {
+                yield return StartCoroutine(FlashLetter(letra));
+                // Pausa entre letras = 3 unidades
+                yield return new WaitForSeconds(unitDuration * 3f);
+            }
+            // Tras enviar toda la palabra, espera un poco antes de repetir
+            yield return new WaitForSeconds(unitDuration * 7f);
+        }
+    }
+
+    private IEnumerator FlashLetter(char letra)
+    {
+        string code;
+        if (!morseCode.TryGetValue(char.ToUpper(letra), out code))
+            yield break;  // Si la letra no existe, salimos
+
+        foreach (char signal in code)
+        {
+            // Enciende
+            targetRenderer.material.color = onColor;
+            // Duración: dot = 1 unidad, dash = 3 unidades
+            float duration = (signal == '.') ? unitDuration : unitDuration * 3f;
+            yield return new WaitForSeconds(duration);
+
+            // Apaga (pausa entre señales = 1 unidad)
+            targetRenderer.material.color = offColor;
+            yield return new WaitForSeconds(unitDuration);
+        }
     }
 }
