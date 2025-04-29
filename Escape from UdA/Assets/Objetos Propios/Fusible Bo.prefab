@@ -464,6 +464,7 @@ GameObject:
   - component: {fileID: 376504480554859882}
   - component: {fileID: 2276139700658324548}
   - component: {fileID: 7560478198914721238}
+  - component: {fileID: 2588944797630667440}
   m_Layer: 6
   m_Name: Fusible Bo
   m_TagString: Fusible Bo
@@ -725,6 +726,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idFusible: FusibleBo
+--- !u!114 &2588944797630667440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328965985599022403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5fe2b1560c5f048ba7d5e64f63e47c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectID: 
+  objectType: 1
 --- !u!1 &8655790879276201128
 GameObject:
   m_ObjectHideFlags: 0

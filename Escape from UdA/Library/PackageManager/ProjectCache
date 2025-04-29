@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638814660393762653
-    m_Hash: 3705769364
+      ticks: 638815096048610228
+    m_Hash: 3526396911
   m_LockFileStatus:
     m_FilePath: C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638814660393878471
-    m_Hash: 3618031263
+      ticks: 638815096048610228
+    m_Hash: 2967138995
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/dfern/Documents/GitHub/Escape-From-UdA/Escape from UdA/Packages/com.merry-yellow.code-assist/package.json:
@@ -23,7 +23,7 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638813660870241941
+        ticks: 638810774512839476
       m_Hash: 1724004672
 m_LocalPackages:
   m_LocalFileStatus: []
@@ -1824,6 +1824,7 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.1.2
+    - 3.2.0-pre.1
     compatible:
     - 2.6.3
     - 2.6.4
@@ -1841,6 +1842,7 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.1.2
+    - 3.2.0-pre.1
     recommended: 2.6.4
     deprecated: []
   dependencies:
@@ -4983,7 +4985,6 @@ m_ResolvedPackages:
     - 3.3.1
     - 3.3.3
     - 3.4.0
-    - 3.4.1
     compatible:
     - 2.7.4
     - 3.0.0
@@ -4993,8 +4994,7 @@ m_ResolvedPackages:
     - 3.3.1
     - 3.3.3
     - 3.4.0
-    - 3.4.1
-    recommended: 3.4.1
+    recommended: 3.4.0
     deprecated: []
   dependencies:
   - name: com.unity.ugui
