@@ -2,7 +2,7 @@
 - Project name: Escape from UdA
 - Unity version: Unity 2022.3.42f1
 - Active game object:
-  - Name: Cube (5)
-  - Tag: Untagged
-  - Layer: Default
+  - Name: Fusible
+  - Tag: Fusible Bo
+  - Layer: Resistencies
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

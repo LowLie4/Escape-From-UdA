@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Jioc.unity
     guid: 26a9d9b4f38944544bf0c90b54ac25ce
   - enabled: 1
-    path: Assets/Scenes/Proves.unity
+    path: Assets/Scenes/Menu Principal.unity
     guid: 7d27072039c7fd6409e7d73acd30f04b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
