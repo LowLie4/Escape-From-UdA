@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\portasortida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\portasortida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\caixafusibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\caixafusibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\post-processing\\vrexposurefade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\post-processing\\vrexposurefade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\stats\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\stats\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stats\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sistemapistes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\portasortida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\portasortida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\panelllletres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\panelllletres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CaixaFusibles.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\CaixaFusibles.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CaixaFusibles.cs",
+              "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\CaixaFusibles.cs",
+              "RelativeToolTip": "Assets\\Script\\CaixaFusibles.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:05:09.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "VRExposureFade.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Post-Processing\\VRExposureFade.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Post-Processing\\VRExposureFade.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Puzzle.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Stats\\Puzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Stats\\Puzzle.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PickUpItem.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Stats\\PickUpItem.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Stats\\PickUpItem.cs",
@@ -91,12 +108,11 @@
               "RelativeToolTip": "Assets\\Script\\Stats\\PickUpItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:22:13.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T17:22:13.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StatsManager.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Stats\\StatsManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Stats\\StatsManager.cs",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MenuInicial.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\MenuInicial.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MenuInicial.cs",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CajaPuzzleColores.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\CajaPuzzleColores.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CajaPuzzleColores.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "StencilMask.shader",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Objetos Propios\\StencilMask.shader",
               "RelativeDocumentMoniker": "Assets\\Objetos Propios\\StencilMask.shader",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SistemaPistes.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\SistemaPistes.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SistemaPistes.cs",
@@ -156,19 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "PortaSortida.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\PortaSortida.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PortaSortida.cs",
               "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\PortaSortida.cs",
               "RelativeToolTip": "Assets\\Script\\PortaSortida.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowB4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T07:49:33.256Z"
+              "WhenOpened": "2025-04-24T07:49:33.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PanellLletres.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\PanellLletres.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PanellLletres.cs",
