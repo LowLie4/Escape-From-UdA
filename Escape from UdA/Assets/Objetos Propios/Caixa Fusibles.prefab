@@ -2013,6 +2013,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LEDAsignat: {fileID: 6900324699435056580}
+  portaSortida: {fileID: 0}
+  _audioSource: {fileID: 0}
+  soEngancha: {fileID: 0}
+  soDesengancha: {fileID: 0}
+  soCorrecte: {fileID: 0}
+  soElectricitatOn: {fileID: 0}
+  soElectricitatOff: {fileID: 0}
 --- !u!1 &2598490616972738766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,6 +2379,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LEDAsignat: {fileID: 6862558917524047816}
+  portaSortida: {fileID: 0}
+  _audioSource: {fileID: 0}
+  soEngancha: {fileID: 0}
+  soDesengancha: {fileID: 0}
+  soCorrecte: {fileID: 0}
+  soElectricitatOn: {fileID: 0}
+  soElectricitatOff: {fileID: 0}
 --- !u!1 &3704853794997413747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2687,6 +2701,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LEDAsignat: {fileID: 8457096992478979512}
+  portaSortida: {fileID: 0}
+  _audioSource: {fileID: 0}
+  soEngancha: {fileID: 0}
+  soDesengancha: {fileID: 0}
+  soCorrecte: {fileID: 0}
+  soElectricitatOn: {fileID: 0}
+  soElectricitatOff: {fileID: 0}
 --- !u!1 &4282297064240698888
 GameObject:
   m_ObjectHideFlags: 0
@@ -6778,6 +6799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3072927970019751609}
+  - component: {fileID: 3989142729876286386}
   m_Layer: 0
   m_Name: Caixa Fusibles
   m_TagString: Untagged
@@ -6798,14 +6820,110 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5979351169682769302}
   - {fileID: 6537238543072755122}
   - {fileID: 3735521572262098072}
   - {fileID: 6194994886388448070}
   - {fileID: 2772194354798999167}
   - {fileID: 8735268719936087986}
-  - {fileID: 5979351169682769302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!82 &3989142729876286386
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678989733936632559}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &6782246255168806832
 GameObject:
   m_ObjectHideFlags: 0
@@ -11181,6 +11299,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LEDAsignat: {fileID: 0}
+  portaSortida: {fileID: 0}
+  _audioSource: {fileID: 3989142729876286386}
+  soEngancha: {fileID: 8300000, guid: 0a9911d3123ea134daf5e47f51e78e84, type: 3}
+  soDesengancha: {fileID: 8300000, guid: 69d9550155ba2c548bc45b1a3f04c445, type: 3}
+  soCorrecte: {fileID: 8300000, guid: 97ef614dd4aa13141a50b9bdd0786d44, type: 3}
+  soElectricitatOn: {fileID: 8300000, guid: 9c08716aba36c414c83ddc4756764d22, type: 3}
+  soElectricitatOff: {fileID: 8300000, guid: c127389764a9c2c44b08b61077421a25, type: 3}
 --- !u!1 &8457096992478979512
 GameObject:
   m_ObjectHideFlags: 0
@@ -12814,6 +12939,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LEDAsignat: {fileID: 6453285304245716905}
+  portaSortida: {fileID: 0}
+  _audioSource: {fileID: 0}
+  soEngancha: {fileID: 0}
+  soDesengancha: {fileID: 0}
+  soCorrecte: {fileID: 0}
+  soElectricitatOn: {fileID: 0}
+  soElectricitatOff: {fileID: 0}
 --- !u!1 &9087569301682186940
 GameObject:
   m_ObjectHideFlags: 0

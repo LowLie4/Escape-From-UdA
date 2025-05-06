@@ -2,11 +2,23 @@ using System.Numerics;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
+
+
 public class CaixaFusibles : MonoBehaviour
+
+
 {
     [Tooltip("LED que se enciende cuando se inserta el fusible en este socket.")]
     public GameObject LEDAsignat;
     public PortaSortida portaSortida;
+
+    public AudioSource _audioSource;
+    public AudioClip soEngancha;         // assign in Inspector
+    public AudioClip soDesengancha;       // assign in Inspector
+    public AudioClip soCorrecte;    // assign in Inspector
+    public AudioClip soElectricitatOn;
+    public AudioClip soElectricitatOff;
+
 
     public void OnFusibleInserted(SelectEnterEventArgs args)
     {

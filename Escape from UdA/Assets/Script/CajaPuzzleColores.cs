@@ -39,6 +39,11 @@ public class CajaPuzzleColores : MonoBehaviour
     public Renderer targetRenderer;
 
 
+    public AudioSource _audioSource;
+    public AudioClip soClic;         // assign in Inspector
+    public AudioClip soError;       // assign in Inspector
+    public AudioClip soCorrecte;    // assign in Inspector
+
     private readonly Dictionary<char, string> morseCode = new Dictionary<char, string>()
     {
         { 'X', "-..-" },
@@ -103,6 +108,7 @@ public class CajaPuzzleColores : MonoBehaviour
         }
 
         Color colorBoto = ObtindreColorBoto(boto);
+        _audioSource.PlayOneShot(soClic);
         colorsSeleccionats.Add(colorBoto);
 
         Renderer renderer = leds[numLEDs].GetComponent<Renderer>();
@@ -125,7 +131,7 @@ public class CajaPuzzleColores : MonoBehaviour
                 if (selecció == new Color(0.3490196f, 0.7294118f, 0.2784314f)) sequencia += "G";
             }
 
-            if (sequencia == "RPBfG")
+            if (sequencia == "RPBfG") //RPBfG
             {
                 foreach (GameObject led in leds)
                 {
@@ -135,6 +141,9 @@ public class CajaPuzzleColores : MonoBehaviour
                 // Iniciar la rotación
                 rotating = true;
                 rotatedAngle = 0f;
+
+                _audioSource.PlayOneShot(soCorrecte);
+
             }
             else
             {
@@ -142,6 +151,8 @@ public class CajaPuzzleColores : MonoBehaviour
                 {
                     renderer = led.GetComponent<Renderer>();
                     renderer.material.color = Color.red;
+
+                    _audioSource.PlayOneShot(soError);
                 }
             }
 

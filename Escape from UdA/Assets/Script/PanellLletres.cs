@@ -19,6 +19,14 @@ public class PanellLletres : MonoBehaviour
     public float targetAngle = 120f;
     public float rotationSpeed = 20f;
 
+    public AudioSource _audioSource;
+    public AudioClip soClic;         // assign in Inspector
+    public AudioClip soError;       // assign in Inspector
+    public AudioClip soCorrecte;    // assign in Inspector
+
+
+
+
     void Start()
     {
         textoMostrar.text = "";
@@ -43,13 +51,19 @@ public class PanellLletres : MonoBehaviour
     {
         if (!botonesActivos) return; // Ignorar si están desactivados
 
+        
+
+
         lletraSeleccionada = ObtindreLletraBoto(boto);
 
         if (lletraSeleccionada == "Enter")
         {
-            if (sequencia == "XARXA")
+            if (sequencia == "XARXA")//XARXA
             {
                 botonesActivos = false; // Desactivar funcionalidad
+
+                _audioSource.PlayOneShot(soCorrecte);
+
 
                 StartCoroutine(ParpadejarText(5, 0.3f));
                 StartCoroutine(RotarPorta());
@@ -57,8 +71,10 @@ public class PanellLletres : MonoBehaviour
             else
             {
                 textoMostrar.text = "Error";
+                _audioSource.PlayOneShot(soError);
                 sequencia = "";
                 Invoke("restablirPuzzle", 3f);
+
             }
         }
         else
@@ -67,6 +83,8 @@ public class PanellLletres : MonoBehaviour
             {
                 sequencia += lletraSeleccionada;
                 textoMostrar.text = sequencia;
+
+                _audioSource.PlayOneShot(soClic);
             }
         }
     }

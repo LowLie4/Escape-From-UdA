@@ -26,8 +26,6 @@ public class PortaSortida : MonoBehaviour
 
     public void VerificarResistencies()
     {
-        StartCoroutine(AccionCompleta()); // Iniciar toda la secuencia
-
         int verdes = 0;
         foreach (var s in sockets)
         {
