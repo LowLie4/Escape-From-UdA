@@ -1244,6 +1244,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186881775}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &193552009 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4229466765498756597, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+  m_PrefabInstance: {fileID: 4999728605204897811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &200245248
 GameObject:
   m_ObjectHideFlags: 0
@@ -4222,6 +4227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4a737903b82a43bb95804a2149147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllerCharacteristics: 0
+  handAnimator: {fileID: 0}
 --- !u!1001 &446940751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17877,6 +17884,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1183066820593704037, guid: dc14f6f80a5025a4d91eeed8b2ffa056, type: 3}
   m_PrefabInstance: {fileID: 83639802}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &2104569721 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4305111087079950522, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+  m_PrefabInstance: {fileID: 4999728605204897811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &2105291850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18740,9 +18752,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.01
       objectReference: {fileID: 0}
+    - target: {fileID: 4229466765498756597, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305111087079950522, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7344864111528437896, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
       propertyPath: m_Name
       value: Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215078287756841824, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.067
       objectReference: {fileID: 0}
     - target: {fileID: 8272190789923981184, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18785,6 +18809,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: clau
+      value: 
+      objectReference: {fileID: 193552009}
+    - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
       propertyPath: FiTutorial
       value: 
       objectReference: {fileID: 8300000, guid: a5056ba597ee55f48ae19d3201bc5c24, type: 3}
@@ -18796,6 +18824,10 @@ PrefabInstance:
       propertyPath: textoMostrar
       value: 
       objectReference: {fileID: 939696060}
+    - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: clauRigidbody
+      value: 
+      objectReference: {fileID: 2104569721}
     - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
       propertyPath: animatorMontse
       value: 

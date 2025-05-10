@@ -1,3 +1,4 @@
+using System;
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -19,6 +20,9 @@ public class CaixaFusibles : MonoBehaviour
     public AudioClip soElectricitatOn;
     public AudioClip soElectricitatOff;
 
+
+    public Animator tapa;
+    private Boolean portaOberta = false;
 
     public void OnFusibleInserted(SelectEnterEventArgs args)
     {
@@ -66,6 +70,21 @@ public class CaixaFusibles : MonoBehaviour
 
         portaSortida?.VerificarResistencies();
 
+    }
+
+
+    public void GestioPorta()
+    {
+        if (portaOberta)
+        {
+            tapa.SetTrigger("TancarTapa");
+            portaOberta = false;
+        }
+        else
+        {
+            tapa.SetTrigger("ObrirTapa");
+            portaOberta = true;
+        }
     }
 }
  

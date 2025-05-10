@@ -19,9 +19,12 @@ public class Tutorial : MonoBehaviour
 
     public TMP_Text textoMostrar;
 
+    public Collider clau;
+    public Rigidbody clauRigidbody;
 
     private void Start()
     {
+
         StartCoroutine(ReproducirAudiosConAnimacion());
     }
 
@@ -49,6 +52,9 @@ public class Tutorial : MonoBehaviour
         textoMostrar.text = "Aprendrem a com funcionen les interaccions. Agafa la clau de la meva dreta i introdueix-la en el pany.";
         animator.SetTrigger("MostrarCaixa");
         animatorMontse.SetTrigger("StartParlar");
+        yield return new WaitForSeconds(0.5f); // Esperar un poco antes de iniciar la animación
+        clau.enabled = true;
+        clauRigidbody.useGravity = true;
         yield return new WaitForSeconds(FicarClau.length);
         animatorMontse.SetTrigger("StopParlar");
 
