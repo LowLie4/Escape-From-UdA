@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 63
+  controlID: 54
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 64
+  controlID: 55
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -221,15 +221,15 @@ MonoBehaviour:
     y: 553
     width: 1163
     height: 386
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,23 +395,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b21d0500
-      m_LastClickedID: 335282
-      m_ExpandedIDs: a0efefffa480f1ffa680f1ffae80f1ffb880f1ffc480f1ffe280f1ff368af1ff7826f4ff9426f4ffda26f4fff626f4ff0627f4ff2227f4ff6627f4ff8227f4ff8627f4ffe027f4ffea27f4ffea29f4ffa02af4ffbe2af4ffc22af4ffce2af4ffbe3bf4ff5655f4ffeadbf4ffaedcf4ff10e6f4ff001df5ff244af5ffb816f6ffbc16f6ffcc3af6ffd0fff6ffca4df9ffce4df9ff8e53f9ff1484faffd684faff388efaff28c5faff50f2faff2a46feff6a72feff5ecefeff64cefeff3c4affff404affff444affff504affff3655ffffec55ffff0a56ffff0e56ffff1a56fffffa5bffffae89ffff64c3ffff20fbffff0ec3000054c40000a8d40300f81c0500621e05000a1f050048200500562005006020050076200500da200500
+      m_SelectedIDs: b0570400
+      m_LastClickedID: 284592
+      m_ExpandedIDs: d49bfaff969cfaff0ea6fafffadafaff2008fbff228afbffb24604009e4704009a590400a65d040030620400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Ranures
-        m_OriginalName: Ranures
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -776314
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -777,9 +777,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.0148005, y: 1.5469201, z: -34.588478}
+    m_Target: {x: 1.8118271, y: 1.7510513, z: -34.551838}
     speed: 2
-    m_Value: {x: 2.0148005, y: 1.5469201, z: -34.588478}
+    m_Value: {x: 1.8118271, y: 1.7510513, z: -34.551838}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -825,13 +825,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.3983995, y: 0.13653395, z: -0.058981936, w: -0.905223}
+    m_Target: {x: -0.15212867, y: 0.34160933, z: -0.054988436, w: -0.9259647}
     speed: 2
-    m_Value: {x: -0.3983455, y: 0.13651544, z: -0.058973942, w: -0.90510035}
+    m_Value: {x: -0.15210779, y: 0.34156245, z: -0.054980893, w: -0.9258377}
   m_Size:
     m_Target: 0.24412559
     speed: 2
-    m_Value: 0.25562888
+    m_Value: 0.24412559
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1039,7 +1039,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/XRI/Settings/Resources
+    - Assets/ExternalDependencyManager/Editor/1.2.185
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1047,17 +1047,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/XRI/Settings/Resources
+  - Assets/ExternalDependencyManager/Editor/1.2.185
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\dfern\Documents\GitHub\Escape-From-UdA\Escape from
     UdA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 311}
-    m_SelectedIDs: fa4c0e00
-    m_LastClickedID: 937210
-    m_ExpandedIDs: 000000003aac000096ac000098ac0000b4ac0000d0c600006ce20600fc4c0e0000ca9a3b
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: 20480000
+    m_LastClickedID: 18464
+    m_ExpandedIDs: 000000009c420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1085,7 +1085,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003aac0000
+    m_ExpandedIDs: 000000009c420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1251,7 +1251,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 594
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

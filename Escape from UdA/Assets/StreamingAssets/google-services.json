@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "419551994116",
+    "firebase_url": "https://escapefromuda-default-rtdb.firebaseio.com",
+    "project_id": "escapefromuda",
+    "storage_bucket": "escapefromuda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419551994116:android:29448bd5c6cf0edf0c3051",
+        "android_client_info": {
+          "package_name": "com.unity.template.vr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmz-TyNZ-SYExhs4cR0CNv_IvTVs39vb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

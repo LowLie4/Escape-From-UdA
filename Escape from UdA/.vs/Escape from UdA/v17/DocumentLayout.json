@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\caixafusibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\caixafusibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\base de dades\\inicialitza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\base de dades\\inicialitza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\fisiquesmans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\fisiquesmans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\base de dades\\novapuntuaci\u00F3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\base de dades\\novapuntuaci\u00F3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\sistemapistes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sistemapistes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\caixafusibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\caixafusibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\fisiquesmans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\fisiquesmans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\puzzleordinadorusb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +54,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NovaPuntuaci\u00F3.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Base de Dades\\NovaPuntuaci\u00F3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Base de Dades\\NovaPuntuaci\u00F3.cs",
+              "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Base de Dades\\NovaPuntuaci\u00F3.cs",
+              "RelativeToolTip": "Assets\\Script\\Base de Dades\\NovaPuntuaci\u00F3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T09:07:34.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Inicialitza.cs",
+              "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Base de Dades\\Inicialitza.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Base de Dades\\Inicialitza.cs",
+              "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Base de Dades\\Inicialitza.cs",
+              "RelativeToolTip": "Assets\\Script\\Base de Dades\\Inicialitza.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T09:07:13.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CaixaFusibles.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\CaixaFusibles.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CaixaFusibles.cs",
@@ -54,12 +88,11 @@
               "RelativeToolTip": "Assets\\Script\\CaixaFusibles.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAUwEsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:47:45.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T17:47:45.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FisiquesMans.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\FisiquesMans.cs",
               "RelativeDocumentMoniker": "Assets\\FisiquesMans.cs",
@@ -67,12 +100,11 @@
               "RelativeToolTip": "Assets\\FisiquesMans.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T16:30:53.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T16:30:53.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HandPresence.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
               "RelativeDocumentMoniker": "Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
@@ -80,12 +112,11 @@
               "RelativeToolTip": "Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T16:30:01.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T16:30:01.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PuzzleOrdinadorUSB.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\PuzzleOrdinadorUSB.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PuzzleOrdinadorUSB.cs",
@@ -97,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Tutorial.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Tutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tutorial.cs",
@@ -105,12 +136,11 @@
               "RelativeToolTip": "Assets\\Script\\Tutorial.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:46:41.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T13:46:41.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AnimacionsMans.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\AnimacionsMans.cs",
               "RelativeDocumentMoniker": "Assets\\AnimacionsMans.cs",
@@ -128,13 +158,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SistemaPistes.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\SistemaPistes.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SistemaPistes.cs",
               "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\SistemaPistes.cs",
               "RelativeToolTip": "Assets\\Script\\SistemaPistes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T15:41:43.525Z",
               "EditorCaption": ""
