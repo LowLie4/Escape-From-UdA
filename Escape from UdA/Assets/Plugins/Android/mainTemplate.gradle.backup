@@ -1,0 +1,62 @@
+// 1. Buildscript amb Google Services
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // El plugin d’Android (mira la versió que Unity t’hagi generat)
+        classpath 'com.android.tools.build:gradle:7.4.1'
+        // Plugin de Google Services per Firebase
+        classpath 'com.google.gms:google-services:4.3.15'
+    }
+}
+
+// 2. Canvia’m a application i aplica el plugin de Firebase
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+**APPLY_PLUGINS**
+
+// 3. Les dependències… afegeix Firebase sota **DEPS**
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    **DEPS**
+    // Afegeix explícitament els libs de Firebase
+    implementation 'com.google.firebase:firebase-auth:21.0.11'
+    implementation 'com.google.firebase:firebase-database:20.0.5'
+}
+
+android {
+    namespace "com.unity3d.player"
+    ndkPath "**NDKPATH**"
+    compileSdkVersion **APIVERSION**
+    buildToolsVersion '**BUILDTOOLS**'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        minSdkVersion **MINSDKVERSION**
+        targetSdkVersion **TARGETSDKVERSION**
+        ndk {
+            abiFilters **ABIFILTERS**
+        }
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }**PACKAGING_OPTIONS**
+}
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**

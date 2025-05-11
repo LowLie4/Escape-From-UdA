@@ -1,0 +1,57 @@
+// 1️⃣ Buildscript amb Google Services
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.1'
+        classpath 'com.google.gms:google-services:4.3.15'
+    }
+}
+
+// 2️⃣ Ara sí és una app i apliquem Google Services
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+**APPLY_PLUGINS**
+
+// 3️⃣ Dependències injectades pel resolver
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    **DEPS**
+}
+
+android {
+    namespace "com.unity3d.player"
+    ndkPath "**NDKPATH**"
+    compileSdkVersion **APIVERSION**
+    buildToolsVersion '**BUILDTOOLS**'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        minSdkVersion **MINSDKVERSION**
+        targetSdkVersion **TARGETSDKVERSION**
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+        ndk {
+            abiFilters **ABIFILTERS**
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }**PACKAGING_OPTIONS**
+}
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**
