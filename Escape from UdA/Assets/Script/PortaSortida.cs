@@ -8,7 +8,8 @@ public class PortaSortida : MonoBehaviour
     public GameObject cilindro1;
     public GameObject cilindro2;
 
-
+    public AudioSource _audioSource;
+    public AudioClip soCorrecte;
 
     public Animator animPorta;
 
@@ -29,6 +30,7 @@ public class PortaSortida : MonoBehaviour
 
         if (verdes == 4)
         {
+            _audioSource.PlayOneShot(soCorrecte);
             Debug.Log("[GestorResistencias] ¡4 LEDs verdes detectados!");
             StartCoroutine(AccionCompleta()); // Iniciar toda la secuencia
         }

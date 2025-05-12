@@ -71,7 +71,9 @@ public class PanellLletres : MonoBehaviour
             else
             {
                 textoMostrar.text = "Error";
+                _audioSource.volume = 0.5f;
                 _audioSource.PlayOneShot(soError);
+                _audioSource.volume = 1f;
                 sequencia = "";
                 Invoke("restablirPuzzle", 3f);
 

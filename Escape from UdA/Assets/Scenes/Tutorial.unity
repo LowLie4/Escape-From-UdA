@@ -18995,9 +18995,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 193552009}
     - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: FicarClau
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ff45b42ee03e8247bddfbaaf6a79a9a, type: 3}
+    - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
       propertyPath: FiTutorial
       value: 
-      objectReference: {fileID: 8300000, guid: a5056ba597ee55f48ae19d3201bc5c24, type: 3}
+      objectReference: {fileID: 8300000, guid: 309248aa8e6fd914ea524705bb465f93, type: 3}
+    - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
+      propertyPath: IntroButons
+      value: 
+      objectReference: {fileID: 8300000, guid: bd266a1f2bb56464195cb1f3861d6e6f, type: 3}
     - target: {fileID: 9184373953853519385, guid: 97dacef2d757ebd46b8953d9e89c6af8, type: 3}
       propertyPath: audioSource
       value: 

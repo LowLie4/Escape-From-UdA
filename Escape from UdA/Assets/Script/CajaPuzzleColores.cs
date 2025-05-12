@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +7,8 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class CajaPuzzleColores : MonoBehaviour
 {
-    public XRSimpleInteractable[] botons; // AsignaciÛn de los 4 botones de la caja
-    public GameObject[] leds; // AsignaciÛn de las 4 "LEDs" de la caja
+    public XRSimpleInteractable[] botons; // Asignaci√≥n de los 4 botones de la caja
+    public GameObject[] leds; // Asignaci√≥n de las 4 "LEDs" de la caja
 
     private List<Color> colorsSeleccionats = new List<Color>();
     private int numLEDs = 0;
@@ -18,25 +18,23 @@ public class CajaPuzzleColores : MonoBehaviour
     public GameObject tapa; // Asigna tu objeto en el inspector
     private GameObject newPivot;
 
-    // Variables para controlar la rotaciÛn
-    private float rotatedAngle = 0f;       // ¡ngulo acumulado
-    public float targetAngle = 120f;       // ¡ngulo total deseado
-    public float rotationSpeed = 20f;      // Velocidad de rotaciÛn (grados por segundo)
-    private bool rotating = false;         // Indica si se est· rotando
+    // Variables para controlar la rotaci√≥n
+    private float rotatedAngle = 0f;       // √Ångulo acumulado
+    public float targetAngle = 120f;       // √Ångulo total deseado
+    public float rotationSpeed = 20f;      // Velocidad de rotaci√≥n (grados por segundo)
+    private bool rotating = false;         // Indica si se est√° rotando
 
-    [Header("ConfiguraciÛn del parpadeo")]
-    [Tooltip("DuraciÛn de la unidad de tiempo (dot).")]
+    [Header("Configuraci√≥n del parpadeo")]
+    [Tooltip("Duraci√≥n de la unidad de tiempo (dot).")]
     public float unitDuration = 0.2f;
 
-    [Tooltip("Color cuando est· \"encendido\" (blanco).")]
+    [Tooltip("Color cuando est√° \"encendido\" (blanco).")]
     public Color onColor = Color.white;
 
-    [Tooltip("Color cuando est· \"apagado\" (negro).")]
+    [Tooltip("Color cuando est√° \"apagado\" (negro).")]
     public Color offColor = Color.black;
 
-    [Header("Referencia al Renderer")]
-    [Tooltip("Si tu objeto usa un SpriteRenderer, c·mbialo aquÌ; de lo contrario deja Renderer.")]
-    public Renderer targetRenderer;
+ 
 
 
     public AudioSource _audioSource;
@@ -44,11 +42,16 @@ public class CajaPuzzleColores : MonoBehaviour
     public AudioClip soError;       // assign in Inspector
     public AudioClip soCorrecte;    // assign in Inspector
 
+    [Header("Morse en m√∫ltiples objetos")]
+    [Tooltip("Asignar un Renderer por cada letra de la palabra")]
+    public Renderer[] morseRenderers;  // ‚Üê Nuevo: arrastra aqu√≠ 5 Renderers
+
     private readonly Dictionary<char, string> morseCode = new Dictionary<char, string>()
     {
         { 'X', "-..-" },
         { 'A', ".-"   },
         { 'R', ".-."  }
+        // si tuvieras m√°s letras, las agregar√≠as aqu√≠
     };
 
 
@@ -70,16 +73,16 @@ public class CajaPuzzleColores : MonoBehaviour
         tapa.transform.SetParent(newPivot.transform);
 
         // Si no has arrastrado el Renderer en el Inspector, lo buscamos
-        if (targetRenderer == null)
-            targetRenderer = GetComponent<Renderer>();
+        // Validaci√≥n opcional por si no asignaste bien en el inspector:
+        if (morseRenderers == null || morseRenderers.Length < 5)
+            Debug.LogWarning("Debes asignar 5 Renderers en morseRenderers para cada letra.");
 
-        // Empezamos la rutina
         StartCoroutine(FlashMorseLoop());
     }
 
     void Update()
     {
-        // Rotar gradualmente la tapa si se activÛ la rotaciÛn
+        // Rotar gradualmente la tapa si se activ√≥ la rotaci√≥n
         if (rotating && newPivot != null && rotatedAngle < targetAngle)
         {
             float rotationThisFrame = rotationSpeed * Time.deltaTime;
@@ -89,7 +92,7 @@ public class CajaPuzzleColores : MonoBehaviour
                 rotationThisFrame = targetAngle - rotatedAngle;
             }
 
-            // RotaciÛn en sentido contrario (puedes cambiar -Vector3.up a Vector3.up seg˙n necesites)
+            // Rotaci√≥n en sentido contrario (puedes cambiar -Vector3.up a Vector3.up seg√∫n necesites)
             newPivot.transform.Rotate(-Vector3.right * rotationThisFrame);
             rotatedAngle += rotationThisFrame;
 
@@ -123,22 +126,22 @@ public class CajaPuzzleColores : MonoBehaviour
             seleccioFinal = colorsSeleccionats.ToArray();
             sequencia = ""; // Reiniciar la secuencia para evitar problemas
 
-            foreach (Color selecciÛ in seleccioFinal)
+            foreach (Color selecci√≥ in seleccioFinal)
             {
-                if (selecciÛ == new Color(0.6037736f, 0.0f, 0.0f)) sequencia += "R";
-                if (selecciÛ == new Color(1.0f, 0.2122642f, 0.9745069f)) sequencia += "P";
-                if (selecciÛ == new Color(0.0291019f, 0.002224996f, 0.4716981f)) sequencia += "Bf";
-                if (selecciÛ == new Color(0.3490196f, 0.7294118f, 0.2784314f)) sequencia += "G";
+                if (selecci√≥ == new Color(0.6037736f, 0.0f, 0.0f)) sequencia += "R";
+                if (selecci√≥ == new Color(1.0f, 0.2122642f, 0.9745069f)) sequencia += "P";
+                if (selecci√≥ == new Color(0.0291019f, 0.002224996f, 0.4716981f)) sequencia += "Bf";
+                if (selecci√≥ == new Color(0.3490196f, 0.7294118f, 0.2784314f)) sequencia += "G";
             }
 
-            if (sequencia == "RPBfG") //RPBfG
+            if (sequencia == "RPGBf") //RPBfG
             {
                 foreach (GameObject led in leds)
                 {
                     renderer = led.GetComponent<Renderer>();
                     renderer.material.color = Color.green;
                 }
-                // Iniciar la rotaciÛn
+                // Iniciar la rotaci√≥n
                 rotating = true;
                 rotatedAngle = 0f;
 
@@ -151,8 +154,9 @@ public class CajaPuzzleColores : MonoBehaviour
                 {
                     renderer = led.GetComponent<Renderer>();
                     renderer.material.color = Color.red;
-
+                    _audioSource.volume= 0.5f; // Ajustar el volumen
                     _audioSource.PlayOneShot(soError);
+                    _audioSource.volume = 1f; // Volver al volumen original
                 }
             }
 
@@ -194,33 +198,46 @@ public class CajaPuzzleColores : MonoBehaviour
 
         while (true)
         {
-            foreach (char letra in palabra)
+            for (int i = 0; i < palabra.Length; i++)
             {
-                yield return StartCoroutine(FlashLetter(letra));
-                // Pausa entre letras = 3 unidades
+                char letra = palabra[i];
+
+                // Asegurarnos de no salirnos del array:
+                if (i < morseRenderers.Length && morseRenderers[i] != null)
+                {
+                    yield return StartCoroutine(FlashLetter(morseRenderers[i], letra));
+                }
+                else
+                {
+                    Debug.LogError($"No hay Renderer asignado en posici√≥n {i} para la letra '{letra}'");
+                }
+
+                // pausa entre letras = 3 unidades
                 yield return new WaitForSeconds(unitDuration * 3f);
             }
-            // Tras enviar toda la palabra, espera un poco antes de repetir
+
+            // tras enviar toda la palabra, espera antes de repetir
             yield return new WaitForSeconds(unitDuration * 7f);
         }
     }
 
-    private IEnumerator FlashLetter(char letra)
+    // Ahora recibe el Renderer por par√°metro
+    private IEnumerator FlashLetter(Renderer rend, char letra)
     {
         string code;
         if (!morseCode.TryGetValue(char.ToUpper(letra), out code))
-            yield break;  // Si la letra no existe, salimos
+            yield break;  // si la letra no est√° en tu diccionario, salimos
 
         foreach (char signal in code)
         {
             // Enciende
-            targetRenderer.material.color = onColor;
-            // DuraciÛn: dot = 1 unidad, dash = 3 unidades
+            rend.material.color = onColor;
+            // Duraci√≥n: dot = 1 unidad, dash = 3 unidades
             float duration = (signal == '.') ? unitDuration : unitDuration * 3f;
             yield return new WaitForSeconds(duration);
 
-            // Apaga (pausa entre seÒales = 1 unidad)
-            targetRenderer.material.color = offColor;
+            // Apaga (pausa entre signals = 1 unidad)
+            rend.material.color = offColor;
             yield return new WaitForSeconds(unitDuration);
         }
     }
