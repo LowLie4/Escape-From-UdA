@@ -13,11 +13,9 @@ public class PortaSortida : MonoBehaviour
 
     public Animator animPorta;
 
-    // Variables para controlar la rotación
-    public float targetAngle = 120f;       // Ángulo total deseado
-    public float rotationSpeed = 20f;      // Velocidad de rotación (grados por segundo)
-
-
+    // Variables para controlar la rotaciÃ³n
+    public float targetAngle = 120f;       // Ã¡ngulo total deseado
+    public float rotationSpeed = 20f;      // Velocidad de rotaciÃ³n (grados por segundo)
 
     public void VerificarResistencies()
     {
@@ -31,7 +29,7 @@ public class PortaSortida : MonoBehaviour
         if (verdes == 4)
         {
             _audioSource.PlayOneShot(soCorrecte);
-            Debug.Log("[GestorResistencias] ¡4 LEDs verdes detectados!");
+            Debug.Log("[GestorResistencias] 4 LEDs verdes detectados!");
             StartCoroutine(AccionCompleta()); // Iniciar toda la secuencia
         }
     }
@@ -43,25 +41,18 @@ public class PortaSortida : MonoBehaviour
         animPorta.SetTrigger("ObrirPorta");
     }
 
-
-
     private IEnumerator MoverSuavementeLocal(Transform objeto, Vector3 posicionFinal, float duracion)
+    {
+        Vector3 posicionInicial = objeto.localPosition;
+        float tiempo = 0f;
+
+        while (tiempo < duracion)
         {
-            Vector3 posicionInicial = objeto.localPosition;
-            float tiempo = 0f;
+            objeto.localPosition = Vector3.Lerp(posicionInicial, posicionFinal, tiempo / duracion);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
 
-            while (tiempo < duracion)
-            {
-                objeto.localPosition = Vector3.Lerp(posicionInicial, posicionFinal, tiempo / duracion);
-                tiempo += Time.deltaTime;
-                yield return null;
-            }
-
-            objeto.localPosition = posicionFinal;
+        objeto.localPosition = posicionFinal;
     }
-
-
-   
-
-
 }
