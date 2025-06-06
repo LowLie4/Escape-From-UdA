@@ -16,7 +16,7 @@ public class PuzzleOrdinadorUSB : MonoBehaviour
     {
         if (args.interactableObject.transform.gameObject == usbGris)
         {
-            textoMostrar.text = "Projecció Enviada";
+            textoMostrar.text = "Projecciï¿½ Enviada";
             ProjeccioODS.SetActive(true); 
         }
         else if (args.interactableObject.transform.gameObject == usbDorada)

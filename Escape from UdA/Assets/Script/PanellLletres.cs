@@ -49,10 +49,7 @@ public class PanellLletres : MonoBehaviour
 
     public void BotoPulsat(GameObject boto)
     {
-        if (!botonesActivos) return; // Ignorar si están desactivados
-
-        
-
+        if (!botonesActivos) return; 
 
         lletraSeleccionada = ObtindreLletraBoto(boto);
 
@@ -60,7 +57,8 @@ public class PanellLletres : MonoBehaviour
         {
             if (sequencia == "XARXA")//XARXA
             {
-                botonesActivos = false; // Desactivar funcionalidad
+                
+                
 
                 _audioSource.PlayOneShot(soCorrecte);
 

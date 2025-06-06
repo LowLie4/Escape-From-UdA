@@ -505,6 +505,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+--- !u!1 &36255605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6154353965754113208, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+  m_PrefabInstance: {fileID: 36255604}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &38810456
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,12 +577,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boto: {fileID: 91810764}
-  textoMostrar: {fileID: 939696060}
-  panelText: {fileID: 795003059}
+  textMostrar: {fileID: 939696060}
+  panellText: {fileID: 81041255}
   pistes:
   - {fileID: 8300000, guid: 48664be6af4d85142bd9468952e0712a, type: 3}
-  src: {fileID: 2042432258}
+  font: {fileID: 2042432258}
   animacioMontse: {fileID: 4269350278252830517}
+  usbGris: {fileID: 1301946139}
+  ordenadorsAmbImatges:
+  - {fileID: 240430140}
+  - {fileID: 493703922}
+  - {fileID: 36255605}
+  - {fileID: 847697697}
+  puzzleOrdinadorUSB: {fileID: 1480097941}
+  cajaPuzzleColores: {fileID: 796643797}
+  panellLletres: {fileID: 790368008}
+  portaSortida: {fileID: 0}
+  audiosUSBAntes:
+  - {fileID: 8300000, guid: 6e3ac3555fbaa7b44a4f94fdd295b080, type: 3}
+  - {fileID: 8300000, guid: a98db86ffe21c7247bb71b755b9a562d, type: 3}
+  - {fileID: 8300000, guid: 034a840d4d17a3845b7bebb8e709467d, type: 3}
+  audiosUSBDespres:
+  - {fileID: 8300000, guid: 4ca5396d1cc4c454783ddfafa1f250b8, type: 3}
+  - {fileID: 8300000, guid: b505307768266b64d94b9a69e057dfd5, type: 3}
+  - {fileID: 8300000, guid: 88c1fd9e2ccf28f499a64e3f3d38d15c, type: 3}
+  audiosOrdenadors:
+  - {fileID: 8300000, guid: cefc43fc8a95c3a4db61455b84f13fbc, type: 3}
+  - {fileID: 8300000, guid: a067f40909d311e47a3acb30faa74c94, type: 3}
+  - {fileID: 8300000, guid: bde1570fc7cd3404a8ca784de30d0dd6, type: 3}
+  audiosRelacionar:
+  - {fileID: 8300000, guid: 97ed1a6702dde9649981ec0f5630eb27, type: 3}
+  - {fileID: 8300000, guid: 6ee63aff4b0d9564faf35174eefb192d, type: 3}
+  - {fileID: 8300000, guid: 9719823773ef97a4198fb96024b68944, type: 3}
+  audiosMorse:
+  - {fileID: 8300000, guid: cba130658223926408543143c4f62f5a, type: 3}
+  - {fileID: 8300000, guid: fb6277fbbac3d2a429ccd6de1a8e3efe, type: 3}
+  - {fileID: 8300000, guid: 86c6577dc73d0474780831f1dae12959, type: 3}
+  - {fileID: 8300000, guid: 7f8a6a551ea06b145981604e3ceaad45, type: 3}
+  audiosFusibles:
+  - {fileID: 8300000, guid: 096f64c41a9892a458b503ece1b0f899, type: 3}
+  - {fileID: 8300000, guid: 3e595a677d99b4c46a0b2cd9e87e8b03, type: 3}
+  - {fileID: 8300000, guid: 3e63b46cb9fa2bb41934b96e4baabdd0, type: 3}
+  - {fileID: 8300000, guid: 087a3a145dcd2944a9d0dd2d5292f708, type: 3}
+  audioPuzleCompletat: {fileID: 0}
+  audioMorseCompletat: {fileID: 0}
+  audioJocCompletat: {fileID: 0}
 --- !u!1 &43506384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4089,6 +4133,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+--- !u!1 &240430140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6154353965754113208, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+  m_PrefabInstance: {fileID: 240430139}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &241571748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6290,6 +6339,7 @@ MonoBehaviour:
   jugador: {fileID: 691654695}
   nomEscenaSeguent: Final
   tempsEsperaCanviEscena: 2
+  rankingManager: {fileID: 0}
 --- !u!1001 &338359784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9959,6 +10009,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+--- !u!1 &493703922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6154353965754113208, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+  m_PrefabInstance: {fileID: 493703921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &501806437
 GameObject:
   m_ObjectHideFlags: 0
@@ -15830,6 +15885,17 @@ Transform:
   - {fileID: 81041256}
   m_Father: {fileID: 7662121449163788799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &796643797 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8477220944286554972, guid: a935b1b333c46f147946ecda8b256dee, type: 3}
+  m_PrefabInstance: {fileID: 3130114143073563262}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a56726417bd2b429136dd67830e89c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &806281373
 Mesh:
   m_ObjectHideFlags: 0
@@ -16869,6 +16935,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+--- !u!1 &847697697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6154353965754113208, guid: 2db3b0144dc793d4f8059613e3041a91, type: 3}
+  m_PrefabInstance: {fileID: 847697696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &849568671
 GameObject:
   m_ObjectHideFlags: 0

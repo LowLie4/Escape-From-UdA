@@ -77,7 +77,7 @@ public class Final : MonoBehaviour
         {
             float distancia = Vector3.Distance(jugador.position, zonaFinal.position);
             
-            Debug.Log("Distancia: " + distancia);
+            // Debug.Log("Distancia: " + distancia);
             
             if (distancia <= distanciaActivacio)
             {
