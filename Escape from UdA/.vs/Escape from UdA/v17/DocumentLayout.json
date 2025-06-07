@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\sistemapistes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sistemapistes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,19 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-06-07T07:24:28.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SistemaPistes.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\SistemaPistes.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SistemaPistes.cs",
               "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\SistemaPistes.cs",
               "RelativeToolTip": "Assets\\Script\\SistemaPistes.cs",
-              "ViewState": "AgIAAAoBAAAAAAAAAAAiwDsBAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAiwDsBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T16:21:42.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IdentificadorFusible.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\IdentificadorFusible.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\IdentificadorFusible.cs",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PanellLletres.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\PanellLletres.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PanellLletres.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PortaSortida.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\PortaSortida.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PortaSortida.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AccesPortaLab.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\AccesPortaLab.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\AccesPortaLab.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CajaPuzzleColores.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\CajaPuzzleColores.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CajaPuzzleColores.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TPFinal.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\TPFinal.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TPFinal.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NovaPuntuaci\u00F3.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Base de Dades\\NovaPuntuaci\u00F3.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Base de Dades\\NovaPuntuaci\u00F3.cs",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Inicialitza.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Base de Dades\\Inicialitza.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Base de Dades\\Inicialitza.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CaixaFusibles.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\CaixaFusibles.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CaixaFusibles.cs",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FisiquesMans.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\FisiquesMans.cs",
               "RelativeDocumentMoniker": "Assets\\FisiquesMans.cs",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HandPresence.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
               "RelativeDocumentMoniker": "Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Tutorial.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\Tutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tutorial.cs",
@@ -227,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AnimacionsMans.cs",
               "DocumentMoniker": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\AnimacionsMans.cs",
               "RelativeDocumentMoniker": "Assets\\AnimacionsMans.cs",

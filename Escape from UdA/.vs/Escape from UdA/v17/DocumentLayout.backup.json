@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sistemapistes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|c:\\users\\dfern\\documents\\github\\escape-from-uda\\escape from uda\\assets\\script\\panelllletres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\assets\\script\\panelllletres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B2F2F4E-0C7C-4E42-03C6-A0FF25891B29}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\panelllletres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\SistemaPistes.cs",
               "ToolTip": "C:\\Users\\dfern\\Documents\\GitHub\\Escape-From-UdA\\Escape from UdA\\Assets\\Script\\SistemaPistes.cs",
               "RelativeToolTip": "Assets\\Script\\SistemaPistes.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAewFEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAiwDsBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T16:21:42.943Z",
               "EditorCaption": ""
@@ -103,8 +103,7 @@
               "RelativeToolTip": "Assets\\Script\\PanellLletres.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAIwDMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:49:23.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:49:23.925Z"
             },
             {
               "$type": "Document",
