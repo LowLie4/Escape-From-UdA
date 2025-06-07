@@ -180,7 +180,7 @@ public class RankingManager : MonoBehaviour
         {
             var jugador = puntuacionsOrdenades[i];
             string medalles = GetMedalla(i + 1);
-            rankingText += $"{medalles} {jugador.nom} - {jugador.tempsFormatat}\n";
+            rankingText += $"{jugador.nom} - {jugador.tempsFormatat}\n";
         }
         
         if (puntuacionsOrdenades.Count == 0)
@@ -234,12 +234,12 @@ public class RankingManager : MonoBehaviour
         if (textPosicioJugador != null)
         {
             string tempsFormatat = FormatarTemps(tempsJugadorActual);
-            string missatge = $" POSICIÓ: {posicioJugador}\n⏱ TEMPS: {tempsFormatat}";
+            string missatge = $" POSICIÓ: {posicioJugador}\n TEMPS: {tempsFormatat}";
             
             if (estaEnPodio)
             {
                 string medalles = GetMedalla(posicioJugador);
-                missatge = $"{medalles} POSICIÓ: {posicioJugador}\n⏱ TEMPS: {tempsFormatat}\n HAS ENTRAT AL PODIO!";
+                missatge = $"POSICIÓ: {posicioJugador}\n TEMPS: {tempsFormatat}\n HAS ENTRAT AL PODIO!";
             }
             
             textPosicioJugador.text = missatge;
