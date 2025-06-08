@@ -35,29 +35,29 @@ public class Inicialitza : MonoBehaviour
         // Inicializa la instancia de Random
         _random = new System.Random();
 
-        // 4️⃣ Envia dades de prova
-        UploadTestData();
+        Debug.Log("✅ Firebase inicialitzat correctament!");
+
     }
 
-    private void UploadTestData()
-    {
-        // Exemple de node de prova "testRun" amb un timestamp i un valor aleatori
-        string key = _dbRef.Child("testRun").Push().Key;
-        var testData = new Dictionary<string, object>
-        {
-            { "valor", Random.Range(1, 100) },
-            { "timestamp", ServerValue.Timestamp }
-        };
+    // private void UploadTestData()
+    // {
+    //     // Exemple de node de prova "testRun" amb un timestamp i un valor aleatori
+    //     string key = _dbRef.Child("testRun").Push().Key;
+    //     var testData = new Dictionary<string, object>
+    //     {
+    //         { "valor", Random.Range(1, 100) },
+    //         { "timestamp", ServerValue.Timestamp }
+    //     };
 
 
-        _dbRef.Child("testRun").Child(key)
-            .SetValueAsync(testData)
-            .ContinueWith(task =>
-            {
-                if (task.IsCompleted && !task.IsFaulted)
-                    Debug.Log("✅ Dades de prova pujat correctament!");
-                else
-                    Debug.LogError($"❌ Error pujant dades de prova: {task.Exception}");
-            });
-    }
+    //     _dbRef.Child("testRun").Child(key)
+    //         .SetValueAsync(testData)
+    //         .ContinueWith(task =>
+    //         {
+    //             if (task.IsCompleted && !task.IsFaulted)
+    //                 Debug.Log("✅ Dades de prova pujat correctament!");
+    //             else
+    //                 Debug.LogError($"❌ Error pujant dades de prova: {task.Exception}");
+    //         });
+    // }
 }
